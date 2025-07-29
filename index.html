@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan DOM</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        text-align: center;
+      }
+
+      .kotak {
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+      }
+
+      .merah {
+        background-color: red;
+      }
+
+      .hijau {
+        background-color: chartreuse;
+      }
+
+      .biru {
+        background-color: cornflowerblue;
+      }
+
+      .cornsilk {
+        background-color: cornsilk;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bermain dengan Warna</h1>
+
+    <div class="kotak merah"></div>
+    <input type="range" name="sR" min="1" max="255" />
+
+    <div class="kotak hijau"></div>
+    <input type="range" name="sG" min="1" max="255" />
+
+    <div class="kotak biru"></div>
+    <input type="range" name="sB" min="1" max="255" />
+
+    <script src="./in.js"></script>
+  </body>
+</html>
